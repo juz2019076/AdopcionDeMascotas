@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "animalesCollection",
+    "dateExported": "2024-02-20T20:22:24.523Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "42fac70b-9c9d-48ed-909f-c55e5a39602e",
+            "colId": "e7c3f9ed-17b5-43a6-9ccf-689cad2b4316",
+            "containerId": "",
+            "name": "animalPOST",
+            "url": "http://localhost:3000/api/animales",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-20T20:20:54.380Z",
+            "modified": "2024-02-20T20:21:10.642Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"Uz1\",\n  \"edadAnimal\": \"15 MESES\",\n    \"tipoAnimal\": \"lEON\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "146a625a-7040-4483-bab1-9dbc461ba1a1",
+            "colId": "e7c3f9ed-17b5-43a6-9ccf-689cad2b4316",
+            "containerId": "",
+            "name": "animalGET",
+            "url": "http://localhost:3000/api/animales",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-20T20:20:54.381Z",
+            "modified": "2024-02-20T20:20:54.381Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8350c317-c403-47da-ba46-b57d89114d89",
+            "colId": "e7c3f9ed-17b5-43a6-9ccf-689cad2b4316",
+            "containerId": "",
+            "name": "animalUpdate",
+            "url": "http://localhost:3000/api/animales/65d506054d50b5304a7a5493",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-02-20T20:20:54.382Z",
+            "modified": "2024-02-20T20:20:54.382Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"Uz\",\n  \"edadAnimal\": \"10 meses\",\n    \"tipoAnimal\": \"lEON\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "412e8083-ec72-4cc5-bb19-505aca5eee93",
+            "colId": "e7c3f9ed-17b5-43a6-9ccf-689cad2b4316",
+            "containerId": "",
+            "name": "animalGetById",
+            "url": "http://localhost:3000/api/animales/65d506054d50b5304a7a5493",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-02-20T20:20:54.383Z",
+            "modified": "2024-02-20T20:20:54.383Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "39606aa2-083d-4b0e-bcd0-884e0d5f0674",
+            "colId": "e7c3f9ed-17b5-43a6-9ccf-689cad2b4316",
+            "containerId": "",
+            "name": "animalDELETE",
+            "url": "http://localhost:3000/api/animales/65d506054d50b5304a7a5493",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-02-20T20:20:54.384Z",
+            "modified": "2024-02-20T20:20:54.384Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
